@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb = json.load\\(open\\('main.ipynb'\\)\\); print\\('Cells:', len\\(nb['cells']\\)\\); print\\('First cell type:', nb['cells'][0]['cell_type'] if nb['cells'] else 'None'\\); print\\('Last 5 cell types:', [c['cell_type'] for c in nb['cells'][-5:]]\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
